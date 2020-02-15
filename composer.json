@@ -1,0 +1,19 @@
+{
+    "name": "eduardo/doctrine",
+    "require": {
+        "doctrine/orm": "^2.7",
+        "symfony/yaml": "^5.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eduardo Alessi",
+            "email": "eduardo.r.alessi@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "": "app"
+      }
+    }
+}
